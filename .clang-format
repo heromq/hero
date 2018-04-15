@@ -1,0 +1,24 @@
+BasedOnStyle: Google
+AlignEscapedNewlinesLeft: true
+AlignAfterOpenBracket: false
+AllowShortLoopsOnASingleLine: true
+AllowShortBlocksOnASingleLine: true
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakAfterReturnType: AllDefinitions
+BinPackParameters: false
+BreakBeforeTernaryOperators: false
+BreakConstructorInitializersBeforeComma: true
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 4
+DerivePointerBinding: false
+IndentCaseLabels: false
+IndentFunctionDeclarationAfterType: false
+MaxEmptyLinesToKeep: 2
+DerivePointerAlignment: false
+PointerAlignment: Right
+ReflowComments: true
+TabWidth: 4
+IncludeCategories:
+  - Regex:           '^<hero/.*>'
+    Priority:        2
