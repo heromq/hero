@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# Others
+.cproject
+.project
+.settings
+build
+build.ninja
+*.pyc
+.cache
+.gdbinit
